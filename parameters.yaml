@@ -1,0 +1,28 @@
+job_runs:
+  - EnvType: production
+    Instance_Names: instance1,instance2
+    datacenters: us-east,us-west
+    Environment: prod
+    Jira_Ticket: JIRA-1234
+    Pause_Resume_State: pause
+
+  - EnvType: staging
+    Instance_Names: instance3
+    datacenters: us-east
+    Environment: stage
+    Jira_Ticket: JIRA-5678
+    Pause_Resume_State: resume
+
+  - EnvType: dev
+    Instance_Names: instance4
+    datacenters: us-west
+    Environment: dev
+    Jira_Ticket: JIRA-9101
+    Pause_Resume_State: resume
+    
+  - EnvType: qa
+    Instance_Names: instance5,instance6
+    datacenters: us-east,eu-central
+    Environment: qa
+    Jira_Ticket: JIRA-1121
+    Pause_Resume_State: pause
